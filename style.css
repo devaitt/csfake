@@ -1,0 +1,122 @@
+body {
+  font-family: "Montserrat Alternates";
+  position: relative;
+  color: white;
+  font-weight: 700;
+}
+.bg {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.example-block {
+  font-size: 50px;
+}
+
+.example-string {
+  font-size: 50px;
+}
+
+.img {
+  overflow: hidden;
+  border-radius: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.name {
+  text-align: left;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.slog {
+  text-align: left;
+  font-size: 15px;
+}
+
+.logo {
+  width: 70px;
+}
+.gabe {
+  width: 50px;
+  margin-bottom: 100px;
+}
+.naming {
+  margin-left: 20px;
+}
+
+.all {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skam {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  width: 40%;
+}
+
+form {
+  max-width: 400px;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+.fbut {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #f30000;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat Alternates";
+  transition: 0.5s ease all 0s;
+}
+.fbut:hover {
+  background-color: palevioletred;
+  color: black;
+  transform: translateY(2px);
+}
+
+.li {
+  padding-top: 15px;
+}
+.case {
+  max-width: 600px;
+  border: 10px ridge red;
+  background-color: #f73f3f;
+  border-radius: 15px;
+  -webkit-box-shadow: 26px 24px 24px 16px rgba(17, 234, 62, 0.19);
+  -moz-box-shadow: 26px 24px 24px 16px rgba(17, 234, 62, 0.19);
+  box-shadow: 26px 24px 24px 16px rgba(17, 234, 62, 0.19);
+}
+.skinimg {
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.icons {
+  display: flex;
+}
